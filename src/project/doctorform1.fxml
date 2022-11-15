@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="775.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controller">
+   <children>
+      <TextField fx:id="firstnamed" layoutX="164.0" layoutY="66.0" />
+      <TextField fx:id="aged" layoutX="164.0" layoutY="113.0" />
+      <TextField fx:id="emaild" layoutX="164.0" layoutY="170.0" />
+      <TextField fx:id="licenceidd" layoutX="170.0" layoutY="235.0" />
+      <TextField fx:id="phoned" layoutX="170.0" layoutY="288.0" />
+      <TextField fx:id="lastnamed" layoutX="487.0" layoutY="75.0" />
+      <TextField fx:id="nationalityd" layoutX="487.0" layoutY="213.0" />
+      <TextField fx:id="doctoridd" layoutX="170.0" layoutY="333.0" />
+      <TextField fx:id="addressd" layoutX="170.0" layoutY="386.0" />
+      <TextField fx:id="cpasswordd" layoutX="495.0" layoutY="386.0" />
+      <Label layoutX="75.0" layoutY="70.0" text="First Name" />
+      <Label layoutX="96.0" layoutY="117.0" text="Age" />
+      <Label layoutX="62.0" layoutY="174.0" text="Username/Emaill" />
+      <Label layoutX="80.0" layoutY="227.0" text="Lcience ID" />
+      <Label layoutX="86.0" layoutY="292.0" prefHeight="17.0" prefWidth="76.0" text="phone" />
+      <Label layoutX="82.0" layoutY="337.0" prefHeight="17.0" prefWidth="104.0" text="Doctor ID" />
+      <Label layoutX="97.0" layoutY="391.0" text="Address" />
+      <Label layoutX="415.0" layoutY="79.0" text="Last name" />
+      <Label layoutX="429.0" layoutY="149.0" text="Gender" />
+      <Label layoutX="428.0" layoutY="199.0" prefHeight="48.0" prefWidth="59.0" text="Nationality" />
+      <Label layoutX="388.0" layoutY="390.0" prefHeight="17.0" prefWidth="122.0" text="conform password" />
+      <RadioButton fx:id="malebtnd" layoutX="494.0" layoutY="149.0" mnemonicParsing="false" text="Male" />
+      <RadioButton fx:id="femalebtnd" layoutX="569.0" layoutY="149.0" mnemonicParsing="false" text="Female" />
+      <TextField fx:id="passwordd" layoutX="495.0" layoutY="321.0" />
+      <Label layoutX="435.0" layoutY="329.0" text="password" />
+      <Label alignment="CENTER" layoutX="227.0" layoutY="14.0" prefHeight="17.0" prefWidth="349.0" text="Register Doctor">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="227.0" layoutY="456.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="143.0" text="Back" />
+      <Button layoutX="394.0" layoutY="456.0" mnemonicParsing="false" onAction="#insertd" prefHeight="48.0" prefWidth="143.0" text="Submit" />
+   </children>
+</AnchorPane>

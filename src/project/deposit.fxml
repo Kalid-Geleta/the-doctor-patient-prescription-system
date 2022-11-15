@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="332.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.controller">
+   <children>
+      <TextField fx:id="amount" layoutX="129.0" layoutY="102.0" />
+      <Label alignment="CENTER" layoutX="61.0" layoutY="102.0" prefHeight="25.0" prefWidth="71.0" text="Amount " />
+      <Label alignment="CENTER" layoutX="96.0" layoutY="39.0" prefHeight="17.0" prefWidth="137.0" text="Deposit">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="r" layoutX="31.0" layoutY="196.0" mnemonicParsing="false" onAction="#deposit" prefHeight="49.0" prefWidth="267.0" text="Deposit" />
+      <Button fx:id="fdu" layoutX="31.0" layoutY="264.0" mnemonicParsing="false" onAction="#gotouser" prefHeight="49.0" prefWidth="102.0" text="Back" />
+      <Label alignment="CENTER_RIGHT" layoutX="47.0" layoutY="154.0" prefHeight="34.0" prefWidth="102.0" text="Current Balance" />
+      <Label fx:id="labt" layoutX="179.0" layoutY="155.0" prefHeight="34.0" prefWidth="119.0" />
+      <Button layoutX="166.0" layoutY="264.0" mnemonicParsing="false" onAction="#refresh" prefHeight="49.0" prefWidth="112.0" text="refresh" />
+   </children>
+</AnchorPane>
